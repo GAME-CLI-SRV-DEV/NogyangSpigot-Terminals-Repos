@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>net.kyori</groupId>
+  <artifactId>adventure-bom</artifactId>
+  <versioning>
+    <lastUpdated>20240504160144</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>4.17.0-SNAPSHOT</value>
+        <updated>20240504160144</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.17.0-SNAPSHOT</value>
+        <updated>20240504160144</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>4.17.0-SNAPSHOT</version>
+</metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.kyori</groupId>
+  <artifactId>adventure-text-serializer-ansi</artifactId>
+  <versioning>
+    <latest>4.17.0-SNAPSHOT</latest>
+    <versions>
+      <version>4.17.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240504160140</lastUpdated>
+  </versioning>
+</metadata>

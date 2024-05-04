@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kyori",
+    "module": "adventure-text-serializer-json-legacy-impl",
+    "version": "4.17.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-json",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "url": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "size": 4992,
+          "sha512": "72f05eee98579f04ab780c44ee6098dea806191204c740911f896ce94e3b0a9fd2ad324bf1bd0b0eb6f6d34474ac296cee3c5d2add493e0cb232a27ba95a004d",
+          "sha256": "884437f426c43cd0799eeb3035ad38f1eae1a1127730423d84bcf5ab6a5bae70",
+          "sha1": "ecc256bc567eb6c152370d3623120f19fbc4a3fe",
+          "md5": "71dc2213666d432f49064adfa45a0c21"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-json",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "url": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "size": 4992,
+          "sha512": "72f05eee98579f04ab780c44ee6098dea806191204c740911f896ce94e3b0a9fd2ad324bf1bd0b0eb6f6d34474ac296cee3c5d2add493e0cb232a27ba95a004d",
+          "sha256": "884437f426c43cd0799eeb3035ad38f1eae1a1127730423d84bcf5ab6a5bae70",
+          "sha1": "ecc256bc567eb6c152370d3623120f19fbc4a3fe",
+          "md5": "71dc2213666d432f49064adfa45a0c21"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-json",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT-javadoc.jar",
+          "url": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT-javadoc.jar",
+          "size": 82202,
+          "sha512": "29c6206fc0c1b44983d7812566b126d7eada6ac9bc8108cd836c4734ca9824e437c5bd14ad96e05ddc8c8b19857d830e572700bcc4767985786d4d940907c7b9",
+          "sha256": "097648162c959f40042af87850ecd6a3c53c21b368806257f007c2f7e372e72f",
+          "sha1": "1ac7856709f6b5c4a5077c1eae59e5d37a846334",
+          "md5": "ab838e7625f83528494de6533648b2e0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT-sources.jar",
+          "url": "adventure-text-serializer-json-legacy-impl-4.17.0-SNAPSHOT-sources.jar",
+          "size": 5337,
+          "sha512": "af361d994c1a52c84163bdb0675d0d532ac79cf74ecceca6b89f11d1ad952d11a7353d381218ee6f46173d3c06001ba2d13f08cdbf13473dc5be6a46a4d04b4a",
+          "sha256": "0b8ff39bcc7d90170e1dddf06d1f72a4d53f008cc0897895b41517a487105694",
+          "sha1": "71b9115d3db5bd476fb21470de466b16b6966a37",
+          "md5": "5d8565249ab3f59d3b0384fc062e8801"
+        }
+      ]
+    }
+  ]
+}

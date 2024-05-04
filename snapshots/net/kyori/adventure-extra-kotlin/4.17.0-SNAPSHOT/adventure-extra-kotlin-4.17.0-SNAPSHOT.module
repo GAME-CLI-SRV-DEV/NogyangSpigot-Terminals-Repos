@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kyori",
+    "module": "adventure-extra-kotlin",
+    "version": "4.17.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-extra-kotlin-4.17.0-SNAPSHOT.jar",
+          "url": "adventure-extra-kotlin-4.17.0-SNAPSHOT.jar",
+          "size": 12638,
+          "sha512": "e97facd31b62c1d0f8f6b11125cca01f8a6beacde4dcb98d42da8c3ec6c1ffa58672b86d231db1b1200e7a2347fa28042670be32f757631bde2880b79019fcf3",
+          "sha256": "10a0c75b8bc7943235424559d5158c9a3a0853cea4973bb061c319276ddcec66",
+          "sha1": "adaa5169c9b37cd4afad3bd5f5f2be2f1f1abf34",
+          "md5": "a17f420411de1efbbb6a8c23943092bd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-extra-kotlin-4.17.0-SNAPSHOT.jar",
+          "url": "adventure-extra-kotlin-4.17.0-SNAPSHOT.jar",
+          "size": 12638,
+          "sha512": "e97facd31b62c1d0f8f6b11125cca01f8a6beacde4dcb98d42da8c3ec6c1ffa58672b86d231db1b1200e7a2347fa28042670be32f757631bde2880b79019fcf3",
+          "sha256": "10a0c75b8bc7943235424559d5158c9a3a0853cea4973bb061c319276ddcec66",
+          "sha1": "adaa5169c9b37cd4afad3bd5f5f2be2f1f1abf34",
+          "md5": "a17f420411de1efbbb6a8c23943092bd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-extra-kotlin-4.17.0-SNAPSHOT-javadoc.jar",
+          "url": "adventure-extra-kotlin-4.17.0-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adventure-extra-kotlin-4.17.0-SNAPSHOT-sources.jar",
+          "url": "adventure-extra-kotlin-4.17.0-SNAPSHOT-sources.jar",
+          "size": 9752,
+          "sha512": "beb5b828a22e4f3864c0ddb99186c106574cd3860fe0dc2191ce60c7d6c74d22aec1b61fb64021eb1cc68669cec23bcfe3b94e0723b026046182db4b0f329593",
+          "sha256": "5bc941550e71cc5746acb6c2410d40a2f427a07c0be8387706a8049e2140315a",
+          "sha1": "38544e681144897bb1148fc7e69d3ce089083184",
+          "md5": "bcfb90faef1cd1b62613a5610dd05e39"
+        },
+        {
+          "name": "adventure-extra-kotlin-4.17.0-SNAPSHOT-sources.jar",
+          "url": "adventure-extra-kotlin-4.17.0-SNAPSHOT-sources.jar",
+          "size": 9752,
+          "sha512": "beb5b828a22e4f3864c0ddb99186c106574cd3860fe0dc2191ce60c7d6c74d22aec1b61fb64021eb1cc68669cec23bcfe3b94e0723b026046182db4b0f329593",
+          "sha256": "5bc941550e71cc5746acb6c2410d40a2f427a07c0be8387706a8049e2140315a",
+          "sha1": "38544e681144897bb1148fc7e69d3ce089083184",
+          "md5": "bcfb90faef1cd1b62613a5610dd05e39"
+        }
+      ]
+    }
+  ]
+}

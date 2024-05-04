@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kyori",
+    "module": "adventure-text-serializer-gson-legacy-impl",
+    "version": "4.17.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-json-legacy-impl",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "url": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "size": 3421,
+          "sha512": "de630af92eda44da8e9f6a95ff809838caafa1e14d6e85fc5e8870a1e3ca9fd43c1ee36ec6258b1ac3c6b538c16c5989d864b1a977725595e0c668fbe2dbd95e",
+          "sha256": "220774e6ceb5b2a3d6c472f6f101ebb84054a0e356c82e6b98d80c6c144d1c8d",
+          "sha1": "77868ac094f7f03f125e4037286653df1027ede6",
+          "md5": "7fa9170901516434bb577b47df174045"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-json-legacy-impl",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "url": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT.jar",
+          "size": 3421,
+          "sha512": "de630af92eda44da8e9f6a95ff809838caafa1e14d6e85fc5e8870a1e3ca9fd43c1ee36ec6258b1ac3c6b538c16c5989d864b1a977725595e0c668fbe2dbd95e",
+          "sha256": "220774e6ceb5b2a3d6c472f6f101ebb84054a0e356c82e6b98d80c6c144d1c8d",
+          "sha1": "77868ac094f7f03f125e4037286653df1027ede6",
+          "md5": "7fa9170901516434bb577b47df174045"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-json-legacy-impl",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT-javadoc.jar",
+          "url": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT-javadoc.jar",
+          "size": 84752,
+          "sha512": "62cd17944e1d5c7b16dc91dfd50c8bd2e055a3cde946a96e32f63c7a7450f27b36902a28a957db86ee776649942660895286091314fff0a7ff90088a70fe2f6f",
+          "sha256": "5ec949ad2a45dcccad9575bd8362755a8ba7fb6075008154b9c52731425a399b",
+          "sha1": "61a75d9b01cceb44af9912fdc568621c944eb2b0",
+          "md5": "4d88ba98d52729054bb2ded2405e5fad"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT-sources.jar",
+          "url": "adventure-text-serializer-gson-legacy-impl-4.17.0-SNAPSHOT-sources.jar",
+          "size": 4812,
+          "sha512": "b7b6c3b4291dcfab3772c4118902e4da84bc1b622f0026646bdec61736d85fddc06d180f6578e65851c8e67bef846f2ec79eb5723529c059c6715cec851210f3",
+          "sha256": "4159d228fcbad68fc8ebf3d1777de568c5a3a676cc842c9c2d679ff558813e9a",
+          "sha1": "2ddc4afae33cd8f1b82fdec4a2f2434f4e2ab0a3",
+          "md5": "af973b7c7e920146c8d63cfcd733fcda"
+        }
+      ]
+    }
+  ]
+}
