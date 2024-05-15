@@ -1,0 +1,359 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kr.ms.nogyang.nogyangspigot",
+    "module": "NogyangSpigot-api",
+    "version": "1.20.6-R0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.2-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.20-R0.2-deprecated+build.18"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.6"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-logger-slf4j"
+        },
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT.jar",
+          "url": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT.jar",
+          "size": 2061621,
+          "sha512": "b5964c6eda583deca80623b7bcb085bcf2476781ca21f2eceb3a6097812bff89222535464b11d58121cc6187776d9321e642074fa226848b60dacbe3dc212c1f",
+          "sha256": "f1803de02b4405dded008b79036e48c0a74646cfc35816c009d381d78689cb83",
+          "sha1": "8ccff08323867906dd1b0703d16ec01ab8102c6a",
+          "md5": "1bdeeba6971ff812940de862ff3670b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.2-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.20-R0.2-deprecated+build.18"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.6"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-logger-slf4j"
+        }
+      ],
+      "files": [
+        {
+          "name": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT.jar",
+          "url": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT.jar",
+          "size": 2061621,
+          "sha512": "b5964c6eda583deca80623b7bcb085bcf2476781ca21f2eceb3a6097812bff89222535464b11d58121cc6187776d9321e642074fa226848b60dacbe3dc212c1f",
+          "sha256": "f1803de02b4405dded008b79036e48c0a74646cfc35816c009d381d78689cb83",
+          "sha1": "8ccff08323867906dd1b0703d16ec01ab8102c6a",
+          "md5": "1bdeeba6971ff812940de862ff3670b1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT-sources.jar",
+          "url": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT-sources.jar",
+          "size": 1546257,
+          "sha512": "f278e466b524962e586ae5a1bf36eeee90474749d56be5452b7628c8ee1e7a3aa8e736b78ff5527da992dac6939837f618ec5b4c65ad64525f774fecd42ffe48",
+          "sha256": "1c46cd8765cc1cb4baafff549a3ffc8437a233c637c4de16905874c836d1ba80",
+          "sha1": "e13ae9b10217fcbc30d52e52dda97941ada4cdd5",
+          "md5": "f7202cb825a2522e232eade57a237ec4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT-javadoc.jar",
+          "url": "NogyangSpigot-api-1.20.6-R0.1-SNAPSHOT-javadoc.jar",
+          "size": 11943445,
+          "sha512": "3c20c90e64d5b583f5989db164ebf66325eccc68be96f329e1a2cd970c91b7ff0454ca2cc3e0f23fc3b1e30c0d64d5f0a606a34e461b3e9ad1784bbdb12283cb",
+          "sha256": "31951ad9c0a501d256c7216576a649fa366c43bd79514580a4d968a3f240a372",
+          "sha1": "1509edd6abcebfb2a4fa283aad0d368afc3797a3",
+          "md5": "5bf16c7318fc7fbf9bd1818af0502cea"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kr.ms.nogyang.nogyangspigot",
+    "module": "NogyangSpigot-MojangAPI",
+    "version": "1.20.6-R0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.0.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT.jar",
+          "url": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT.jar",
+          "size": 8476,
+          "sha512": "7b183f9488f8c682d54d50febe929133fcbaa9060e5a4fdbdc3844766009dcfeb94f792e90d61461aae58972ca7ba50959bf515956b7d946305d4c8cff04eb51",
+          "sha256": "ca7ca7c65fa01cf47b7bf33294d7d39bf361fa74ab616984b1f7478d812210fb",
+          "sha1": "f9824f22133ef2eba59314f0d4a95ea4cfc11088",
+          "md5": "9cd6898ff0230887b45bec539e5e1a88"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "kr.ms.nogyang.nogyangspigot",
+          "module": "NogyangSpigot-api",
+          "version": {
+            "requires": "1.20.6-R0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.0.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT.jar",
+          "url": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT.jar",
+          "size": 8476,
+          "sha512": "7b183f9488f8c682d54d50febe929133fcbaa9060e5a4fdbdc3844766009dcfeb94f792e90d61461aae58972ca7ba50959bf515956b7d946305d4c8cff04eb51",
+          "sha256": "ca7ca7c65fa01cf47b7bf33294d7d39bf361fa74ab616984b1f7478d812210fb",
+          "sha1": "f9824f22133ef2eba59314f0d4a95ea4cfc11088",
+          "md5": "9cd6898ff0230887b45bec539e5e1a88"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT-sources.jar",
+          "url": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT-sources.jar",
+          "size": 7534,
+          "sha512": "986577fb9f38163de6b926e90941c482cb4a32b89d5edb198badfe0f89d2baf0f4b12a50a2117e54a35a1506f947f9dac6f0bdbdf309a737f96d881f4f441d40",
+          "sha256": "e6dc1bf8df133d0988afbf057ccc53c5a33b52e806a8955c224ab5c028de96f9",
+          "sha1": "b0beaa97784437481ea5b61b32ea40273a2d2d8c",
+          "md5": "8c988f3dddddfcc390bf0421ab8cc323"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT-javadoc.jar",
+          "url": "NogyangSpigot-MojangAPI-1.20.6-R0.1-SNAPSHOT-javadoc.jar",
+          "size": 108869,
+          "sha512": "c0114e318358fd4c9d539c7801fae0639f72c2ab6bc908d43f90fd2d274cfbe00d0bf010c0fd1794ed40f848671c5c4c8bb52364e23b91462c34d964c362048c",
+          "sha256": "02e63116e137f760e00300f9644c807a4eb118de38c9767c67abfacc0bca7f71",
+          "sha1": "13f6f25cde5d67d629e7e4e5a4b8d21d19b39432",
+          "md5": "3bd0478b42941c997981e691f8ad845d"
+        }
+      ]
+    }
+  ]
+}
