@@ -3,7 +3,7 @@
   "component": {
     "group": "kr.ms.nogyang.nogyangspigot",
     "module": "NogyangSpigot-api",
-    "version": "1.20.6-R0.1-SNAPSHOT",
+    "version": "1.20.6-R0.1-20240515033714",
     "attributes": {
       "org.gradle.status": "integration"
     }
