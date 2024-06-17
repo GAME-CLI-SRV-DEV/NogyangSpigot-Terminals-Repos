@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>kr.ms.nogyang.nogyangspigot</groupId>
   <artifactId>NogyangSpigot-api</artifactId>
-  <version>1.20.6-R0.1-SNAPSHOT</version>
+  <version>1.20.6-R0.1-20240515.033714</version>
   <dependencyManagement>
     <dependencies>
       <dependency>
